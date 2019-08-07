@@ -14,6 +14,9 @@ int main()
 
     PassByValue(ValueOne);
     PassByReference(&ValueTwo);
+    
+    cout << "The value passed by value is now " << ValueOne << endl;
+    cout << "The value passed by reference is now " << ValueTwo << endl;
 
 return 0;
 }
